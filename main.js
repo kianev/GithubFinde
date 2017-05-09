@@ -50,6 +50,7 @@ $(document).ready(function () {
                         <img class="tumbnail avatar" src="${user.avatar_url}"><br><br>
                         <a target="_blank" class="btn btn-info btn-block" href="${user.html_url}">View Profile</a>
                     </div>
+                    <br><br>
                     <div class="col-md-9">
                         <span class="label label-default">Public Repos: ${user.public_repos}</span>
                         <span class="label label-primary">Public Gists: ${user.public_gists}</span>
