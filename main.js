@@ -29,8 +29,8 @@ $(document).ready(function () {
                              <span class="label label-default">Forks: ${repo.forks_count}</span>
                              <span class="label label-primary">Watchers: ${repo.watchers_count}</span>
                              <span class="label label-success">Stars: ${repo.stargazers_count}</span>
-                            
                             </div>
+                            <br>
                             <div class="col-md-2">
                             <a href="${repo.html_url}" target="_blank" class="btn btn-default">Repo Page</a>
                             </div>
@@ -50,7 +50,7 @@ $(document).ready(function () {
                         <img class="tumbnail avatar" src="${user.avatar_url}"><br><br>
                         <a target="_blank" class="btn btn-info btn-block" href="${user.html_url}">View Profile</a>
                     </div>
-                    <br><br>
+                    <br>
                     <div class="col-md-9">
                         <span class="label label-default">Public Repos: ${user.public_repos}</span>
                         <span class="label label-primary">Public Gists: ${user.public_gists}</span>
