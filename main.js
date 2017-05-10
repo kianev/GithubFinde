@@ -26,13 +26,13 @@ $(document).ready(function () {
                               <strong>${repo.name}</strong>: ${repo.description}
                             </div>
                             <div class="col-md-3">
-                             <span class="label label-default">Forks: ${repo.forks_count}</span>
-                             <span class="label label-primary">Watchers: ${repo.watchers_count}</span>
+                             <span class="label label-success">Forks: ${repo.forks_count}</span>
+                             <span class="label label-success">Watchers: ${repo.watchers_count}</span>
                              <span class="label label-success">Stars: ${repo.stargazers_count}</span>
                             </div>
                             <br>
                             <div class="col-md-2">
-                            <a href="${repo.html_url}" target="_blank" class="btn btn-default">Repo Page</a>
+                            <a href="${repo.html_url}" target="_blank" class="btn btn-info btn-block">Repo Page</a>
                             </div>
                         </div>
                     </div>
@@ -52,10 +52,10 @@ $(document).ready(function () {
                     </div>
                     <br>
                     <div class="col-md-9">
-                        <span class="label label-default">Public Repos: ${user.public_repos}</span>
+                        <span class="label label-primary">Public Repos: ${user.public_repos}</span>
                         <span class="label label-primary">Public Gists: ${user.public_gists}</span>
-                        <span class="label label-success">Followers: ${user.followers}</span>
-                        <span class="label label-info">Following: ${user.following}</span>
+                        <span class="label label-primary">Followers: ${user.followers}</span>
+                        <span class="label label-primary">Following: ${user.following}</span>
                         <br><br>
                        <ul class="list-group">
                           <li class="list-group-item">Company: ${user.company}</li>
